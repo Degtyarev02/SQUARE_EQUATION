@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         {
             x1 = (-b + sqrt(D)) / (2 * a);
             x2 = (-b - sqrt(D)) / (2 * a);
-            answer.setText(String.valueOf("x1 = " + x1 + "x2 = " + x2));
+            answer.setText(String.valueOf("x1 = " + x1 + "  x2 = " + x2));
         }
 
         else if (D == 0 && a != 0)
