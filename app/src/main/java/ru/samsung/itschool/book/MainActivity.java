@@ -23,12 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void OnClick(View view) {
 
-        double a = Double.parseDouble( ((EditText)
-                findViewById(R.id.a)).getText().toString());
-        double b = Double.parseDouble( ((EditText)
-                findViewById(R.id.b)).getText().toString());
-        double c = Double.parseDouble( ((EditText)
-                findViewById(R.id.c)).getText().toString());
+        double a = Double.parseDouble ( ((EditText) findViewById(R.id.a)).getText().toString());
+        double b = Double.parseDouble ( ((EditText) findViewById(R.id.b)).getText().toString());
+        double c = Double.parseDouble ( ((EditText) findViewById(R.id.c)).getText().toString());
 
         double x1, x2;
         double D = (b * b) - (4 * a * c);
